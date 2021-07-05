@@ -1,12 +1,10 @@
-import React from "react";
-import "./App.css";
-import Main from "./components/Main";
-
+import './App.css';
+import Table from './components/Table';
 
 function App() {
   return (
     <div className="container">
-      <Main />
+      <Table></Table>
     </div>
   );
 }
